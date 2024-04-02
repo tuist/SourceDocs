@@ -154,6 +154,13 @@ Requirements:
 
     $ brew install sourcedocs
 
+#### Using [Mise](https://mise.jdx.dev/)
+
+    $ mise plugins add sourcedocs https://github.com/tuist/asdf-sourcedocs.git
+    $ mise install sourcedocs
+    $ mise use -g sourcedocs@latest
+
+
 #### Building with Swift Package Manager
 
     $ git clone https://github.com/eneko/SourceDocs.git
